@@ -4,6 +4,8 @@ This tool automates and facilitates an  Differential fault analysis attack on AE
 
 This tools is based on [this paper](https://blog.quarkslab.com/differential-fault-analysis-on-white-box-aes-implementations.html) from Philippe Teuwen and Charles Hubain
 
+According to the previous article, we need to provide ``the ciphertext`` and 4 pairs of ``erroneous ciphertexts`` (4 different positions)
+
 # Usage :
 ```python
 from DFA_Attack import *
